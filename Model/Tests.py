@@ -1,7 +1,7 @@
 from cgi import test
 from dataclass import deviceA, deviceB
-from EnergyConsumption1 import energyConsumption1
-from EnergyConsumption2 import energyConsumption2
+from model.EnergyConsumption_4G import energyConsumption1
+from model.EnergyConsumption_5G import energyConsumption2
 from Simulation import Simulation
 from matplotlib import pyplot as plt
 import numpy as np
